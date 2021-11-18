@@ -1,0 +1,6 @@
+{
+    "baseUrlId": "https://reqres.in/api/users?id=",
+    "baseUrl": "https://reqres.in/api/users",
+    "baseUrlWeb": "https://flip.id/"
+
+}

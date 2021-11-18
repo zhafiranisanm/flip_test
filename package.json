@@ -1,0 +1,14 @@
+{
+  "name": "technical_test_qa_engineer_flip",
+  "version": "1.0.0",
+  "description": "Technical test for API test and Web UI test of Flip.id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zhafiranisa_nm",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
