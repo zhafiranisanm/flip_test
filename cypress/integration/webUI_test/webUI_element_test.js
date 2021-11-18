@@ -25,7 +25,7 @@ describe('Web UI Element test,', () => {
       cy.visit('https://flip.id/');
     })
 
-    it('displays button and text', () => {
+    it('As a User, I should be able to view buttons menu by text and click it', () => {
         for (let i=0; i<arr_text.length; i++) {
             //get element by attribute
             cy.get('a.btn-grey-flip').eq(i)
