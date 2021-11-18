@@ -189,7 +189,6 @@ describe(' Get users list by invalid input ', () => {
             
         }).then((response) => {
             expect(response.status).to.eq(404)
-            
         })
     })
 })

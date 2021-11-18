@@ -78,7 +78,9 @@ describe('As a User, I should not be able to crete user by invalid payload : fai
             failOnStatusCode : false
         
         }).then((response) => {
+            // Issue : expected to not successfully created, but fails
             cy.log(JSON.stringify(response))
+            expect(response.status).to.eq(400)
             expect(response.body).has.property('name', false)
             expect(response.body).has.property('job')
             expect(response.body).has.property('createdAt')

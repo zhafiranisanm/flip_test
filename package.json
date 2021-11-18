@@ -4,7 +4,8 @@
   "description": "Technical test for API test and Web UI test of Flip.id",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run"
   },
   "author": "zhafiranisa_nm",
   "license": "ISC",
